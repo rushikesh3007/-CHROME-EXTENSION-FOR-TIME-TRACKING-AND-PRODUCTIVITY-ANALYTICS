@@ -1,83 +1,82 @@
 # -CHROME-EXTENSION-FOR-TIME-TRACKING-AND-PRODUCTIVITY-ANALYTICS
 
+COMPANY: CODTECH IT SOLUTIONS
 
-Description
+NAME: Rushikesh Ghogare
 
-This Chrome extension helps users track the time spent on different websites and provides detailed productivity analytics. It categorizes websites as productive (e.g., coding platforms, educational sites) or unproductive (e.g., social media, entertainment sites) and generates weekly reports to help users optimize their time.
+INTERN ID: CT6WLJF
 
-The extension features a popup UI for real-time tracking, a backend server for storing user data, and a dashboard for analytics visualization. Users can customize their website classifications and receive productivity insights.
+DOMAIN: Full Stack Web Development
 
-Key Features:
+DURATION: 6 WEEKS
 
-Automatic Time Tracking: Logs the duration spent on each website.
-
-Website Categorization: Classifies sites into productive/unproductive.
-
-Data Storage: Saves browsing history to a backend database.
-
-Analytics Dashboard: Displays insights and weekly reports.
-
-Custom Rules: Users can modify website classifications.
-
-Notifications: Alerts users about excessive time on unproductive sites.
-
-Tech Stack
-
-Frontend:
-
-Chrome Extension APIs (Tabs, Storage, Alarms)
-
-JavaScript/React.js (for UI components)
-
-Bootstrap/TailwindCSS (for styling)
-
-Backend:
-
-Node.js with Express.js (for API endpoints)
-
-MongoDB/PostgreSQL (for data storage)
-
-JWT Authentication (for secure data access)
-
-Installation
-
-Prerequisites:
-
-Google Chrome
-
-Node.js & npm
-
-MongoDB/PostgreSQL setup (if using a database backend)
-
-Steps:
-
-Clone the repository:
-
-git clone https://github.com/your-repo/chrome-time-tracker.git
-cd chrome-time-tracker
-
-Install dependencies:
-
-cd backend
-npm install
-
-Start the backend server:
-
-npm start
-
-Load the extension:
-
-Open Chrome and navigate to chrome://extensions/.
-
-Enable "Developer mode".
-
-Click "Load unpacked" and select the extension folder.
+MENTOR: NEELA SANTHOSH
 
 
-##Deployment
+# Time Tracker Chrome Extension
 
-Backend: Deploy on Heroku, AWS, or Railway.
+## Description
 
-Frontend: Pack extension and submit to the Chrome Web Store.
+The **Time Tracker** Chrome Extension is a productivity tool designed to help users monitor the time they spend on different websites while browsing. This extension records and stores time spent on each domain, providing valuable insights into browsing habits. It is particularly useful for individuals looking to track work hours, manage online distractions, and improve overall productivity.
+
+## Features
+
+- Tracks time spent on each website.
+- Records browsing history locally using Chrome's storage API.
+- Provides a summary of time spent on various domains.
+- Simple and lightweight, running in the background without affecting performance.
+- Secure and privacy-friendly: no data is shared with external servers.
+
+## Installation
+
+1. Download or clone this repository.
+2. Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer Mode" in the top right corner.
+4. Click "Load Unpacked" and select the folder containing the extension files.
+5. The extension will be installed and available in the Chrome toolbar.
+
+## How It Works
+
+1. The background script listens for tab changes and records time spent on active websites.
+2. When a tab is changed or closed, the elapsed time is stored against the respective domain.
+3. Users can view their browsing history and time logs through the extension's popup interface.
+
+## Files and Structure
+
+- `manifest.json` - Defines the extension's metadata and permissions.
+- `background.js` - Tracks active tab time and stores data.
+- `popup.html` - Displays recorded time logs.
+- `popup.js` - Handles UI logic and data retrieval.
+- `icon.png` - The extension icon.
+
+## Permissions
+
+- `tabs`: Allows the extension to access active tab URLs.
+- `storage`: Enables local storage of time-tracking data.
+
+## Future Enhancements
+
+- Export data to CSV for detailed analysis.
+- Add daily and weekly time reports.
+- Implement category-wise time tracking.
+- Provide user notifications when exceeding time limits on specific websites.
+
+## License
+
+This project is licensed under the MIT License. Feel free to modify and distribute it as needed.
+
+## Contribution
+
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Make your changes and commit them.
+4. Open a pull request.
+
+## Contact
+
+For any inquiries, please create an issue on the repository.
+
+
 
 OUTPUT: ![Image](https://github.com/user-attachments/assets/d901474a-833a-427d-b625-a07055da63e7)
