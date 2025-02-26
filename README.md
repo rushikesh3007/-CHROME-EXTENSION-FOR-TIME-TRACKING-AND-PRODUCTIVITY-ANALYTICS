@@ -80,4 +80,4 @@ Backend: Deploy on Heroku, AWS, or Railway.
 
 Frontend: Pack extension and submit to the Chrome Web Store.
 
-OUTPUT: ![Image](https://github.com/user-attachments/assets/c5200446-7edc-483d-af8d-80d341851876)
+OUTPUT: ![Image](https://github.com/user-attachments/assets/d901474a-833a-427d-b625-a07055da63e7)
