@@ -79,3 +79,5 @@ Click "Load unpacked" and select the extension folder.
 Backend: Deploy on Heroku, AWS, or Railway.
 
 Frontend: Pack extension and submit to the Chrome Web Store.
+
+OUTPUT: ![Image](https://github.com/user-attachments/assets/c5200446-7edc-483d-af8d-80d341851876)
